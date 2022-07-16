@@ -59,7 +59,7 @@ top_move_in <- county_flows %>%
   )
 
 map <- top_move_in %>% 
-  mapdeck(token = "your token here", 
+  mapdeck(token = "YOUR TOKEN HERE", 
   style = mapdeck_style("light"), pitch = 45) %>% 
   add_arc(
     origin = "centroid1",
